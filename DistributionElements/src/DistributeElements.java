@@ -109,7 +109,7 @@ class DistributeElements {
             }
             System.out.println("");
         }
-        // Sample1
+        // Sample12
     }
 
 
