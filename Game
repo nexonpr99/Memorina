@@ -1,0 +1,698 @@
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.lang.String;
+
+import static com.sun.java.accessibility.util.AWTEventMonitor.addActionListener;
+
+public class Game extends JFrame {
+    JButton button[] = new JButton[67];
+    JFrame fr = new JFrame();
+    ImageIcon icon = new ImageIcon("");
+
+    ImageIcon icon2 = new ImageIcon("DistributionElements/src/sda.jpg");
+    JPanel panel = new JPanel();
+
+
+    public class TestActionListener1 implements ActionListener {
+        public void actionPerformed(ActionEvent e) {//Тута происходят все действия при нажатии на кнопку
+            button[1].setIcon(icon);
+        }
+
+    }
+
+    public class TestActionListener2 implements ActionListener {
+        public void actionPerformed(ActionEvent e) {//Тута происходят все действия при нажатии на кнопку
+            button[2].setIcon(icon);
+        }
+
+    }
+
+    public class TestActionListener3 implements ActionListener {
+        public void actionPerformed(ActionEvent e) {//Тута происходят все действия при нажатии на кнопку
+            button[3].setIcon(icon);
+        }
+
+    }
+
+    public class TestActionListener4 implements ActionListener {
+        public void actionPerformed(ActionEvent e) {//Тута происходят все действия при нажатии на кнопку
+            button[4].setIcon(icon);
+        }
+
+    }
+
+    public class TestActionListener5 implements ActionListener {
+        public void actionPerformed(ActionEvent e) {//Тута происходят все действия при нажатии на кнопку
+            button[5].setIcon(icon);
+        }
+
+    }
+
+    public class TestActionListener6 implements ActionListener {
+        public void actionPerformed(ActionEvent e) {//Тута происходят все действия при нажатии на кнопку
+            button[6].setIcon(icon);
+        }
+
+    }
+
+    public class TestActionListener7 implements ActionListener {
+        public void actionPerformed(ActionEvent e) {//Тута происходят все действия при нажатии на кнопку
+            button[7].setIcon(icon);
+        }
+
+    }
+
+    public class TestActionListener8 implements ActionListener {
+        public void actionPerformed(ActionEvent e) {//Тута происходят все действия при нажатии на кнопку
+            button[8].setIcon(icon);
+        }
+
+    }
+
+    public class TestActionListener9 implements ActionListener {
+        public void actionPerformed(ActionEvent e) {//Тута происходят все действия при нажатии на кнопку
+            button[9].setIcon(icon);
+        }
+
+    }
+
+    public class TestActionListener10 implements ActionListener {
+        public void actionPerformed(ActionEvent e) {//Тута происходят все действия при нажатии на кнопку
+            button[10].setIcon(icon);
+        }
+
+    }
+
+    public class TestActionListener11 implements ActionListener {
+        public void actionPerformed(ActionEvent e) {//Тута происходят все действия при нажатии на кнопку
+            button[11].setIcon(icon);
+        }
+
+    }
+
+    public class TestActionListener12 implements ActionListener {
+        public void actionPerformed(ActionEvent e) {//Тута происходят все действия при нажатии на кнопку
+            button[12].setIcon(icon);
+        }
+
+    }
+
+    public class TestActionListener13 implements ActionListener {
+        public void actionPerformed(ActionEvent e) {//Тута происходят все действия при нажатии на кнопку
+            button[13].setIcon(icon);
+        }
+
+    }
+
+    public class TestActionListener14 implements ActionListener {
+        public void actionPerformed(ActionEvent e) {//Тута происходят все действия при нажатии на кнопку
+            button[14].setIcon(icon);
+        }
+
+    }
+
+    public class TestActionListener15 implements ActionListener {
+        public void actionPerformed(ActionEvent e) {//Тута происходят все действия при нажатии на кнопку
+            button[15].setIcon(icon);
+        }
+
+    }
+
+    public class TestActionListener16 implements ActionListener {
+        public void actionPerformed(ActionEvent e) {//Тута происходят все действия при нажатии на кнопку
+            button[16].setIcon(icon);
+        }
+
+    }
+
+    public class TestActionListener17 implements ActionListener {
+        public void actionPerformed(ActionEvent e) {//Тута происходят все действия при нажатии на кнопку
+            button[17].setIcon(icon);
+        }
+
+    }
+
+    public class TestActionListener18 implements ActionListener {
+        public void actionPerformed(ActionEvent e) {//Тута происходят все действия при нажатии на кнопку
+            button[18].setIcon(icon);
+        }
+
+    }
+
+    public class TestActionListener19 implements ActionListener {
+        public void actionPerformed(ActionEvent e) {//Тута происходят все действия при нажатии на кнопку
+            button[19].setIcon(icon);
+        }
+
+    }
+
+    public class TestActionListener20 implements ActionListener {
+        public void actionPerformed(ActionEvent e) {//Тута происходят все действия при нажатии на кнопку
+            button[20].setIcon(icon);
+        }
+
+    }
+
+    public class TestActionListener21 implements ActionListener {
+        public void actionPerformed(ActionEvent e) {//Тута происходят все действия при нажатии на кнопку
+            button[21].setIcon(icon);
+        }
+
+    }
+
+    public class TestActionListener22 implements ActionListener {
+        public void actionPerformed(ActionEvent e) {//Тута происходят все действия при нажатии на кнопку
+            button[22].setIcon(icon);
+        }
+
+    }
+
+    public class TestActionListener23 implements ActionListener {
+        public void actionPerformed(ActionEvent e) {//Тута происходят все действия при нажатии на кнопку
+            button[23].setIcon(icon);
+        }
+
+    }
+
+    public class TestActionListener24 implements ActionListener {
+        public void actionPerformed(ActionEvent e) {//Тута происходят все действия при нажатии на кнопку
+            button[24].setIcon(icon);
+        }
+
+    }
+
+    public class TestActionListener25 implements ActionListener {
+        public void actionPerformed(ActionEvent e) {//Тута происходят все действия при нажатии на кнопку
+            button[25].setIcon(icon);
+        }
+
+    }
+
+    public class TestActionListener26 implements ActionListener {
+        public void actionPerformed(ActionEvent e) {//Тута происходят все действия при нажатии на кнопку
+            button[26].setIcon(icon);
+        }
+
+    }
+
+    public class TestActionListener27 implements ActionListener {
+        public void actionPerformed(ActionEvent e) {//Тута происходят все действия при нажатии на кнопку
+            button[27].setIcon(icon);
+        }
+
+    }
+
+    public class TestActionListener28 implements ActionListener {
+        public void actionPerformed(ActionEvent e) {//Тута происходят все действия при нажатии на кнопку
+            button[28].setIcon(icon);
+        }
+
+    }
+
+    public class TestActionListener29 implements ActionListener {
+        public void actionPerformed(ActionEvent e) {//Тута происходят все действия при нажатии на кнопку
+            button[29].setIcon(icon);
+        }
+
+    }
+
+    public class TestActionListener30 implements ActionListener {
+        public void actionPerformed(ActionEvent e) {//Тута происходят все действия при нажатии на кнопку
+            button[30].setIcon(icon);
+        }
+
+    }
+
+    public class TestActionListener31 implements ActionListener {
+        public void actionPerformed(ActionEvent e) {//Тута происходят все действия при нажатии на кнопку
+            button[31].setIcon(icon);
+        }
+
+    }
+
+    public class TestActionListener32 implements ActionListener {
+        public void actionPerformed(ActionEvent e) {//Тута происходят все действия при нажатии на кнопку
+            button[32].setIcon(icon);
+        }
+
+    }
+
+    public class TestActionListener33 implements ActionListener {
+        public void actionPerformed(ActionEvent e) {//Тута происходят все действия при нажатии на кнопку
+            button[33].setIcon(icon);
+        }
+
+    }
+
+    public class TestActionListener34 implements ActionListener {
+        public void actionPerformed(ActionEvent e) {//Тута происходят все действия при нажатии на кнопку
+            button[34].setIcon(icon);
+        }
+
+    }
+
+    public class TestActionListener35 implements ActionListener {
+        public void actionPerformed(ActionEvent e) {//Тута происходят все действия при нажатии на кнопку
+            button[35].setIcon(icon);
+        }
+
+    }
+
+    public class TestActionListener36 implements ActionListener {
+        public void actionPerformed(ActionEvent e) {//Тута происходят все действия при нажатии на кнопку
+            button[36].setIcon(icon);
+        }
+
+    }
+
+    public class TestActionListener37 implements ActionListener {
+        public void actionPerformed(ActionEvent e) {//Тута происходят все действия при нажатии на кнопку
+            button[37].setIcon(icon);
+        }
+
+    }
+
+    public class TestActionListener38 implements ActionListener {
+        public void actionPerformed(ActionEvent e) {//Тута происходят все действия при нажатии на кнопку
+            button[38].setIcon(icon);
+        }
+
+    }
+
+    public class TestActionListener39 implements ActionListener {
+        public void actionPerformed(ActionEvent e) {//Тута происходят все действия при нажатии на кнопку
+            button[39].setIcon(icon);
+        }
+
+    }
+
+    public class TestActionListener40 implements ActionListener {
+        public void actionPerformed(ActionEvent e) {//Тута происходят все действия при нажатии на кнопку
+            button[40].setIcon(icon);
+        }
+
+    }
+
+    public class TestActionListener41 implements ActionListener {
+        public void actionPerformed(ActionEvent e) {//Тута происходят все действия при нажатии на кнопку
+            button[41].setIcon(icon);
+        }
+
+    }
+
+    public class TestActionListener42 implements ActionListener {
+        public void actionPerformed(ActionEvent e) {//Тута происходят все действия при нажатии на кнопку
+            button[42].setIcon(icon);
+        }
+
+    }
+
+    public class TestActionListener43 implements ActionListener {
+        public void actionPerformed(ActionEvent e) {//Тута происходят все действия при нажатии на кнопку
+            button[43].setIcon(icon);
+        }
+
+    }
+
+    public class TestActionListener44 implements ActionListener {
+        public void actionPerformed(ActionEvent e) {//Тута происходят все действия при нажатии на кнопку
+            button[44].setIcon(icon);
+        }
+
+    }
+
+    public class TestActionListener45 implements ActionListener {
+        public void actionPerformed(ActionEvent e) {//Тута происходят все действия при нажатии на кнопку
+            button[45].setIcon(icon);
+        }
+
+    }
+
+    public class TestActionListener46 implements ActionListener {
+        public void actionPerformed(ActionEvent e) {//Тута происходят все действия при нажатии на кнопку
+            button[46].setIcon(icon);
+        }
+
+    }
+
+    public class TestActionListener47 implements ActionListener {
+        public void actionPerformed(ActionEvent e) {//Тута происходят все действия при нажатии на кнопку
+            button[47].setIcon(icon);
+        }
+
+    }
+
+    public class TestActionListener48 implements ActionListener {
+        public void actionPerformed(ActionEvent e) {//Тута происходят все действия при нажатии на кнопку
+            button[48].setIcon(icon);
+        }
+
+    }
+
+    public class TestActionListener49 implements ActionListener {
+        public void actionPerformed(ActionEvent e) {//Тута происходят все действия при нажатии на кнопку
+            button[49].setIcon(icon);
+        }
+
+    }
+
+    public class TestActionListener50 implements ActionListener {
+        public void actionPerformed(ActionEvent e) {//Тута происходят все действия при нажатии на кнопку
+            button[50].setIcon(icon);
+        }
+
+    }
+
+    public class TestActionListener51 implements ActionListener {
+        public void actionPerformed(ActionEvent e) {//Тута происходят все действия при нажатии на кнопку
+            button[51].setIcon(icon);
+        }
+
+    }
+
+    public class TestActionListener52 implements ActionListener {
+        public void actionPerformed(ActionEvent e) {//Тута происходят все действия при нажатии на кнопку
+            button[52].setIcon(icon);
+        }
+
+    }
+
+    public class TestActionListener53 implements ActionListener {
+        public void actionPerformed(ActionEvent e) {//Тута происходят все действия при нажатии на кнопку
+            button[53].setIcon(icon);
+        }
+
+    }
+
+    public class TestActionListener54 implements ActionListener {
+        public void actionPerformed(ActionEvent e) {//Тута происходят все действия при нажатии на кнопку
+            button[54].setIcon(icon);
+        }
+
+    }
+
+    public class TestActionListener55 implements ActionListener {
+        public void actionPerformed(ActionEvent e) {//Тута происходят все действия при нажатии на кнопку
+            button[55].setIcon(icon);
+        }
+
+    }
+
+    public class TestActionListener56 implements ActionListener {
+        public void actionPerformed(ActionEvent e) {//Тута происходят все действия при нажатии на кнопку
+            button[56].setIcon(icon);
+        }
+
+    }
+
+    public class TestActionListener57 implements ActionListener {
+        public void actionPerformed(ActionEvent e) {//Тута происходят все действия при нажатии на кнопку
+            button[57].setIcon(icon);
+        }
+
+    }
+
+    public class TestActionListener58 implements ActionListener {
+        public void actionPerformed(ActionEvent e) {//Тута происходят все действия при нажатии на кнопку
+            button[58].setIcon(icon);
+        }
+
+    }
+
+    public class TestActionListener59 implements ActionListener {
+        public void actionPerformed(ActionEvent e) {//Тута происходят все действия при нажатии на кнопку
+            button[59].setIcon(icon);
+        }
+
+    }
+
+    public class TestActionListener60 implements ActionListener {
+        public void actionPerformed(ActionEvent e) {//Тута происходят все действия при нажатии на кнопку
+            button[60].setIcon(icon);
+        }
+
+    }
+
+    public class TestActionListener61 implements ActionListener {
+        public void actionPerformed(ActionEvent e) {//Тута происходят все действия при нажатии на кнопку
+            button[61].setIcon(icon);
+        }
+
+    }
+
+    public class TestActionListener62 implements ActionListener {
+        public void actionPerformed(ActionEvent e) {//Тута происходят все действия при нажатии на кнопку
+            button[62].setIcon(icon);
+        }
+
+    }
+
+    public class TestActionListener63 implements ActionListener {
+        public void actionPerformed(ActionEvent e) {//Тута происходят все действия при нажатии на кнопку
+            button[63].setIcon(icon);
+        }
+
+    }
+
+    public class TestActionListener64 implements ActionListener {
+        public void actionPerformed(ActionEvent e) {//Тута происходят все действия при нажатии на кнопку
+            button[64].setIcon(icon);
+        }
+
+    }
+
+
+    public Game() {
+        fr.add(panel);
+
+
+        fr.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        panel.setLayout(new GridLayout(8, 8));
+        fr.setBounds(300, 0, 700, 700);
+        fr.setVisible(true);
+        ActionListener butlistener1 = new TestActionListener1();
+        ActionListener butlistener2 = new TestActionListener2();
+        ActionListener butlistener3 = new TestActionListener3();
+        ActionListener butlistener4 = new TestActionListener4();
+        ActionListener butlistener5 = new TestActionListener5();
+        ActionListener butlistener6 = new TestActionListener6();
+        ActionListener butlistener7 = new TestActionListener7();
+        ActionListener butlistener8 = new TestActionListener8();
+        ActionListener butlistener9 = new TestActionListener9();
+        ActionListener butlistener10 = new TestActionListener10();
+        ActionListener butlistener11 = new TestActionListener11();
+        ActionListener butlistener12 = new TestActionListener12();
+        ActionListener butlistener13 = new TestActionListener13();
+        ActionListener butlistener14 = new TestActionListener14();
+        ActionListener butlistener15 = new TestActionListener15();
+        ActionListener butlistener16 = new TestActionListener16();
+        ActionListener butlistener17 = new TestActionListener17();
+        ActionListener butlistener18 = new TestActionListener18();
+        ActionListener butlistener19 = new TestActionListener19();
+        ActionListener butlistener20 = new TestActionListener20();
+        ActionListener butlistener21 = new TestActionListener21();
+        ActionListener butlistener22 = new TestActionListener22();
+        ActionListener butlistener23 = new TestActionListener23();
+        ActionListener butlistener24 = new TestActionListener24();
+        ActionListener butlistener25 = new TestActionListener25();
+        ActionListener butlistener26 = new TestActionListener26();
+        ActionListener butlistener27 = new TestActionListener27();
+        ActionListener butlistener28 = new TestActionListener28();
+        ActionListener butlistener29 = new TestActionListener29();
+        ActionListener butlistener30 = new TestActionListener30();
+        ActionListener butlistener31 = new TestActionListener31();
+        ActionListener butlistener32 = new TestActionListener32();
+        ActionListener butlistener33 = new TestActionListener33();
+        ActionListener butlistener34 = new TestActionListener34();
+        ActionListener butlistener35 = new TestActionListener35();
+        ActionListener butlistener36 = new TestActionListener36();
+        ActionListener butlistener37 = new TestActionListener37();
+        ActionListener butlistener38 = new TestActionListener38();
+        ActionListener butlistener39 = new TestActionListener39();
+        ActionListener butlistener40 = new TestActionListener40();
+        ActionListener butlistener41 = new TestActionListener41();
+        ActionListener butlistener42 = new TestActionListener42();
+        ActionListener butlistener43 = new TestActionListener43();
+        ActionListener butlistener44 = new TestActionListener44();
+        ActionListener butlistener45 = new TestActionListener45();
+        ActionListener butlistener46 = new TestActionListener46();
+        ActionListener butlistener47 = new TestActionListener47();
+        ActionListener butlistener48 = new TestActionListener48();
+        ActionListener butlistener49 = new TestActionListener49();
+        ActionListener butlistener50 = new TestActionListener50();
+        ActionListener butlistener51 = new TestActionListener51();
+        ActionListener butlistener52 = new TestActionListener52();
+        ActionListener butlistener53 = new TestActionListener53();
+        ActionListener butlistener54 = new TestActionListener54();
+        ActionListener butlistener55 = new TestActionListener55();
+        ActionListener butlistener56 = new TestActionListener56();
+        ActionListener butlistener57 = new TestActionListener57();
+        ActionListener butlistener58 = new TestActionListener58();
+        ActionListener butlistener59 = new TestActionListener59();
+        ActionListener butlistener60 = new TestActionListener60();
+        ActionListener butlistener61 = new TestActionListener61();
+        ActionListener butlistener62 = new TestActionListener62();
+        ActionListener butlistener63 = new TestActionListener63();
+        ActionListener butlistener64 = new TestActionListener64();
+
+
+        for (int i = 1; i < 65; i++) {
+            button[i] = new JButton(icon2);
+            button[i].setIcon(icon2);
+            String s = String.valueOf(i);
+            String name = "actionListener" + s;
+
+
+            fr.getContentPane().add(button[i]);
+        }
+        button[1].addActionListener(butlistener1);
+        button[2].addActionListener(butlistener2);
+        button[3].addActionListener(butlistener3);
+        button[4].addActionListener(butlistener4);
+        button[5].addActionListener(butlistener5);
+        button[6].addActionListener(butlistener6);
+        button[7].addActionListener(butlistener7);
+        button[8].addActionListener(butlistener8);
+        button[9].addActionListener(butlistener9);
+        button[10].addActionListener(butlistener10);
+        button[11].addActionListener(butlistener11);
+        button[12].addActionListener(butlistener12);
+        button[13].addActionListener(butlistener13);
+        button[14].addActionListener(butlistener14);
+        button[15].addActionListener(butlistener15);
+        button[16].addActionListener(butlistener16);
+        button[17].addActionListener(butlistener17);
+        button[18].addActionListener(butlistener18);
+        button[19].addActionListener(butlistener19);
+        button[20].addActionListener(butlistener20);
+        button[21].addActionListener(butlistener21);
+        button[22].addActionListener(butlistener22);
+        button[23].addActionListener(butlistener23);
+        button[24].addActionListener(butlistener24);
+        button[25].addActionListener(butlistener25);
+        button[26].addActionListener(butlistener26);
+        button[27].addActionListener(butlistener27);
+        button[28].addActionListener(butlistener28);
+        button[29].addActionListener(butlistener29);
+        button[30].addActionListener(butlistener30);
+        button[31].addActionListener(butlistener31);
+        button[32].addActionListener(butlistener32);
+        button[33].addActionListener(butlistener33);
+        button[34].addActionListener(butlistener34);
+        button[35].addActionListener(butlistener35);
+        button[36].addActionListener(butlistener36);
+        button[37].addActionListener(butlistener37);
+        button[38].addActionListener(butlistener38);
+        button[39].addActionListener(butlistener39);
+        button[40].addActionListener(butlistener40);
+        button[41].addActionListener(butlistener41);
+        button[42].addActionListener(butlistener42);
+        button[43].addActionListener(butlistener43);
+        button[44].addActionListener(butlistener44);
+        button[45].addActionListener(butlistener45);
+        button[46].addActionListener(butlistener46);
+        button[47].addActionListener(butlistener47);
+        button[48].addActionListener(butlistener48);
+        button[49].addActionListener(butlistener49);
+        button[50].addActionListener(butlistener50);
+        button[51].addActionListener(butlistener51);
+        button[52].addActionListener(butlistener52);
+        button[53].addActionListener(butlistener53);
+        button[54].addActionListener(butlistener54);
+        button[55].addActionListener(butlistener55);
+        button[56].addActionListener(butlistener56);
+        button[57].addActionListener(butlistener57);
+        button[58].addActionListener(butlistener58);
+        button[59].addActionListener(butlistener59);
+        button[60].addActionListener(butlistener60);
+        button[61].addActionListener(butlistener61);
+        button[62].addActionListener(butlistener62);
+        button[63].addActionListener(butlistener63);
+        button[64].addActionListener(butlistener64);
+
+        for (int i = 1; i < 65; i++) {
+            panel.add(button[i]);
+        }
+
+
+        /*JButton cancelbutton = new JButton("Выход");
+        cancelbutton.addActionListener(new ActionListener() {//Слушатель для кнопки выход
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+                fr.dispose();//Закрывает frame
+            }
+        });
+        button[66] = new JButton("Перезагрузка");
+        button[66].addActionListener(new ActionListener() {//Слушатель для кнопки выход
+            @Override
+            public void actionPerformed(ActionEvent e) {
+          */      //fr.setVisible(false); //this will close frame i.e. NewJFrame
+        for (int i = 1; i < 65; i++) {
+            button[i].setIcon(icon2);
+        }
+        //new JFrame().setVisible(true);
+        //fr.invalidate();
+        //fr.validate();
+        //fr.repaint();
+        //SwingUtilities.updateComponentTreeUI(fr);
+
+        //update (panel.getGraphics());
+        //repaint ();  // так не канает
+        fr.repaint();
+        fr.dispose();
+        fr.setVisible(true);//Закрывает frame
+    }
+
+        //panel.add(cancelbutton);
+        //panel.add(button[66]);
+
+        public void CreateBoard(int Length, int Width) {
+            fr.add(panel);
+            fr.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+            panel.setLayout(new GridLayout(Length + 1, Width));
+            panel.setBounds(300, 12, 700, 700);
+            fr.setBounds(300, 1, 700, 700);
+            fr.setVisible(true);
+
+
+            for (int c = 1; c <= Width; c++) {
+
+            for (int i = 1; i <= Length; i++) {
+                    int b = i + c;
+                    button[b] = new JButton(icon);
+                    button[b].setIcon(icon);
+                    button[b].setName(Integer.toString(i) + Integer.toString(c));
+                    fr.getContentPane().add(button[b]);
+
+                    panel.add(button[b]);
+                }
+
+            }
+                fr.setVisible(true);
+        }
+
+
+
+    public static void main(String[] args) {
+        int[][] ResultTable; // Двумерный массив с результатом
+        int Length, Width; // Переменные длина и ширина поля
+        Length = 8;
+        Width = 8;
+
+        Game game = new Game();
+
+        ResultTable = DistributeElements.CreateDistribution(Length, Width);
+        int a, b; // Счетчики циклов
+
+        // Выводим результат на экран
+        for (a = 0; a <= Length - 1; a++) {
+            for (b = 0; b <= Width - 1; b++) {
+                System.out.print(ResultTable[a][b] + ";");
+            }
+            System.out.println("");
+        }
+    }
+}
